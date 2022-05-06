@@ -25,7 +25,7 @@ import static userinterfaces.WhatToDoUserInterface.*;
 public class ToolsQaStepDefinition {
 
 
-    @Managed(driver = "")
+    @Managed(driver = "chrome")
     WebDriver driver;
     private HomePageUserInterface homepage = new HomePageUserInterface();
 
